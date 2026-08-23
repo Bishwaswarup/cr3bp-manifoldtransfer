@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Nayak
+    given-names: Bishwaswarup
+    affiliation: "Department of Physics, Indian Institute of Science, Bengaluru"
+    email: priyaa@iisc.ac.in
+title: "CR3BP Manifold-Assisted Transfer Design"
+version: 1.0.0
+date-released: 2026-08-23
+url: "https://github.com/Bishwaswarup/cr3bp-manifold-transfer"
+license: MIT
+abstract: >
+  Python pipeline for low-energy Earth–Moon transfer design via invariant
+  manifolds of halo orbits in the Circular Restricted Three-Body Problem.
+  Includes halo orbit computation (Richardson guess + differential correction +
+  pseudo-arclength continuation), manifold tube generation, Poincaré section
+  intersection search, and ΔV budget computation.
+keywords:
+  - astrodynamics
+  - CR3BP
+  - halo orbits
+  - invariant manifolds
+  - Poincaré section
+  - low-energy transfer
+  - Earth-Moon
+  - trajectory design
+references:
+  - type: book
+    authors:
+      - family-names: Koon
+        given-names: "Wang Sang"
+      - family-names: Lo
+        given-names: "Martin W."
+      - family-names: Marsden
+        given-names: "Jerrold E."
+      - family-names: Ross
+        given-names: "Shane D."
+    title: "Dynamical Systems, the Three-Body Problem and Space Mission Design"
+    publisher: Springer
+    year: 2008

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+.DS_Store
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data and large outputs (keep .gitkeep placeholders)
+data/*
+!data/.gitkeep
+
+# Figures are committed intentionally — remove this block if you want to
+# exclude generated plots:
+# figures/*
+# !figures/.gitkeep
