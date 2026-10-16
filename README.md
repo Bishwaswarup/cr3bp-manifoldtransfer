@@ -9,6 +9,8 @@ patches through the lunar region, and where the Earth-bound manifold actually go
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![Tests](https://img.shields.io/badge/tests-31%20passing-2ea44f)
 ![NumPy](https://img.shields.io/badge/NumPy-SciPy%20DOP853-013243?logo=numpy)
+[![DOI](https://zenodo.org/badge/1343818097.svg)](https://doi.org/10.5281/zenodo.23416719)
+
 
 **Bishwaswarup Nayak** · Department of Physics, Indian Institute of Science, Bengaluru
 
