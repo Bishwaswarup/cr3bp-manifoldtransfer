@@ -151,6 +151,11 @@ def find_manifold_intersections(
 ) -> list[dict]:
     """Find near-intersections between two manifold Poincaré sections.
 
+    Caution: the departure and arrival crossings must come from *different*
+    orbits. Matching W^u and W^s of one orbit returns its own homoclinic
+    self-intersections (or the orbit itself), not a transfer. For L1 → L2
+    connections use ``connections.energy_matched_connection``.
+
     Searches for pairs of section crossing states (one from the unstable
     manifold of the departure orbit, one from the stable manifold of the
     arrival orbit) that are close in position space.

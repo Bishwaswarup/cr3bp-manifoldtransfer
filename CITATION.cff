@@ -4,18 +4,20 @@ authors:
   - family-names: Nayak
     given-names: Bishwaswarup
     affiliation: "Department of Physics, Indian Institute of Science, Bengaluru"
-    email: priyaa@iisc.ac.in
-title: "CR3BP Manifold-Assisted Transfer Design"
-version: 1.0.0
-date-released: 2026-08-23
-url: "https://github.com/Bishwaswarup/cr3bp-manifold-transfer"
+    email: bishwaswarup@iisc.ac.in
+title: "Halo Orbits, Invariant Manifolds and L1/L2 Connections in the Earth–Moon CR3BP"
+version: 2.0.0
+date-released: 2026-10-16
+repository-code: "https://github.com/Bishwaswarup/cr3bp-manifoldtransfer"
+url: "https://github.com/Bishwaswarup/cr3bp-manifoldtransfer"
 license: MIT
 abstract: >
-  Python pipeline for low-energy Earth–Moon transfer design via invariant
-  manifolds of halo orbits in the Circular Restricted Three-Body Problem.
-  Includes halo orbit computation (Richardson guess + differential correction +
-  pseudo-arclength continuation), manifold tube generation, Poincaré section
-  intersection search, and ΔV budget computation.
+  Python pipeline for Earth–Moon libration-point orbits in the circular
+  restricted three-body problem: Richardson initial guesses, a Howell
+  differential corrector and pseudo-arclength continuation for L1 and L2 halo
+  families, invariant-manifold tubes, energy-matched L1 to L2 patches through
+  the lunar region, and an Earth-approach map of the interior unstable
+  manifold.
 keywords:
   - astrodynamics
   - CR3BP
@@ -23,6 +25,7 @@ keywords:
   - invariant manifolds
   - Poincaré section
   - low-energy transfer
+  - atmospheric entry
   - Earth-Moon
   - trajectory design
 references:

@@ -34,6 +34,7 @@ htmlcov/
 # Data and large outputs (keep .gitkeep placeholders)
 data/*
 !data/.gitkeep
+!data/results.json
 
 # Figures are committed intentionally — remove this block if you want to
 # exclude generated plots:

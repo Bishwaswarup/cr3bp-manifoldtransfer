@@ -3,6 +3,15 @@ transfer.py
 ===========
 Transfer design tools for the CR3BP manifold-assisted low-energy transfer.
 
+Status
+------
+The repository's results use ``connections.py`` (energy-matched L1/L2
+patches) and ``reentry.py``. The two-body TLI estimate in
+``leo_to_manifold_dv`` / ``full_transfer_budget`` is a rough Hohmann-style
+approximation (it circularises at the insertion radius instead of matching
+the manifold velocity) and the low-thrust shooting leg is experimental and
+untested; neither is used for any figure or number in the README.
+
 Implements:
   1. Full ΔV budget computation for a ballistic manifold transfer (two impulses:
      departure from parking orbit + arrival Poincaré ΔV patch).
